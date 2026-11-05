@@ -29,6 +29,11 @@ legend { font-weight: bold; padding: 0 4px; }
 
 .legend-note { font-size: 0.9rem; color: #555; }
 
+/* ページ下部の出典表示 */
+.source { margin-top: 24px; padding-top: 8px; border-top: 1px solid #ccc; font-size: 0.9rem; color: #444; }
+.source h2 { font-size: 1.05rem; margin: 8px 0 4px; }
+.source ul { margin: 4px 0; padding-left: 1.4em; }
+
 /* 点をクリックしたときに出す「近読パネル」 */
 .close-read {
   border: 1px solid #0072B2;

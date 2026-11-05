@@ -49,6 +49,17 @@
     <p id="message" class="message"></p>
   </main>
 
+  <!-- 出典の表示（Trove の利用規約が、Trove への帰属表示とリンクを求めているため） -->
+  <footer class="source">
+    <h2>出典</h2>
+    <ul>
+      <li>データ：<a href="https://trove.nla.gov.au/" target="_blank" rel="noopener">Trove</a>（オーストラリア国立図書館 National Library of Australia）の API v3 で取得した、新聞記事の検索ヒット数と総記事数。記事の本文は取得・掲載していません。取得日は、上の注記（data/hits.csv）に表示しています。</li>
+      <li>各記事の新聞名・寄与機関は、スパイクの「Trove で開く」から開く Trove の画面で確認できます。</li>
+      <li>グラフ描画：<a href="https://www.chartjs.org/" target="_blank" rel="noopener">Chart.js</a> 4.4.1（MIT ライセンス）。</li>
+    </ul>
+    <p class="legend-note">件数は「現在デジタル化され検索可能な記事の中での一致数」であり、当時の報道量そのものではありません。データの条件と規約の確認状況は、README.md に記録しています。</p>
+  </footer>
+
   <!-- Chart.js（グラフ描画ライブラリ、MIT ライセンス）を CDN から読み込む -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="app.js"></script>
