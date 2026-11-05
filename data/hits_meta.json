@@ -1,0 +1,38 @@
+{
+  "api": "Trove API v3",
+  "endpoint": "https://api.trove.nla.gov.au/v3/result",
+  "queries": {
+    "Kanematsu": "\"kanematsu\"",
+    "F. Kanematsu": "\"F. Kanematsu\"",
+    "Yellow Peril": "\"Yellow Peril\"",
+    "Japanese buyers": "\"Japanese buyers\"",
+    "Japanese competition": "\"Japanese competition\"",
+    "Anglo-Japanese Alliance": "\"Anglo-Japanese Alliance\""
+  },
+  "query_groups": {
+    "会社": {
+      "Kanematsu": "\"kanematsu\"",
+      "F. Kanematsu": "\"F. Kanematsu\""
+    },
+    "言説": {
+      "Yellow Peril": "\"Yellow Peril\"",
+      "Japanese buyers": "\"Japanese buyers\"",
+      "Japanese competition": "\"Japanese competition\"",
+      "Anglo-Japanese Alliance": "\"Anglo-Japanese Alliance\""
+    }
+  },
+  "denominator_query": "",
+  "fixed_params": {
+    "category": "newspaper",
+    "l-artType": "newspapers",
+    "n": 0
+  },
+  "decades": [
+    188,
+    194
+  ],
+  "retrieved_at": "2026-10-30T21:03:22+09:00",
+  "script": "fetch_trove.py",
+  "script_sha256": "adcec8a3c2b4cc4ad8c97f243869af2abee6871b08e419f549bd575a4a4329f7",
+  "notes": "新聞のみ。分子・分母に同一フィルタ。APIキーは記録しない。"
+}

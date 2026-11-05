@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新聞ヒット数の推移ビューア</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>新聞ヒット数の推移ビューア</h1>
+    <p class="lead">検索語ごとの年別ヒット数を重ねて表示します。総記事数で割った「100万記事あたり」に切り替えると、新聞全体の記事数の増減による見かけの変化を取り除いて比べられます。</p>
+  </header>
+
+  <main>
+    <!-- データに付けた注記（data/hits.csv の # で始まる行）をここに表示する -->
+    <p id="data-note" class="note"></p>
+
+    <section class="controls">
+      <fieldset>
+        <legend>表示する値</legend>
+        <label><input type="radio" name="mode" value="raw"> 生の件数</label>
+        <label><input type="radio" name="mode" value="norm" checked> 100万記事あたり（正規化）</label>
+      </fieldset>
+      <fieldset id="group-box" hidden>
+        <legend>グループ</legend>
+        <div id="group-list"></div>
+        <p class="legend-note">会社名の語と言説の語は、件数の桁が違うため、グラフを分けています。</p>
+      </fieldset>
+      <fieldset>
+        <legend>検索語</legend>
+        <div id="query-list"></div>
+      </fieldset>
+    </section>
+
+    <section class="chart-box">
+      <canvas id="chart" aria-label="年別ヒット数の折れ線グラフ" role="img"></canvas>
+    </section>
+
+    <p class="legend-note">破線・白抜きの点：ヒットが5件未満の年です（「100万記事あたり」表示のとき）。分子が小さいため、比率は大きくぶれます。点にカーソルを合わせると、生の件数と総記事数を確認できます。</p>
+    <section class="spike-box">
+      <h2>スパイク（突出した年）</h2>
+      <p class="legend-note">グラフの大きな三角の点が、自動で見つけたスパイクです。点を押すか、下の表の「Trove で開く」を押すと、その年の記事を Trove で開けます（新しいタブ）。見つけ方：ヒットが5件以上で、100万記事あたりの値が前後5年の中央値の2倍以上、かつ前後1年より低くない年を、目立つ順に1つの検索語につき最大5つまで。これは目安です。広告の反復掲載、転載、同名の別人などの偽陽性かもしれないので、必ず記事を読んで確かめてください。</p>
+      <div id="spike-list"></div>
+    </section>
+
+    <!-- 点をクリックすると、その年・検索語の記事を確かめるためのパネルが出る -->
+    <section id="close-read" class="close-read" hidden></section>
+    <p id="message" class="message"></p>
+  </main>
+
+  <!-- Chart.js（グラフ描画ライブラリ、MIT ライセンス）を CDN から読み込む -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

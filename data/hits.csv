@@ -1,0 +1,423 @@
+# 出典：Trove API v3（オーストラリア国立図書館）。取得日：2026-10-30。新聞のみ（官報は除外）。ヒット件数と総記事数は同じ絞り込み条件。
+# 件数は『現在デジタル化され検索可能な記事』の中での一致数であり、当時の報道量そのものではない。
+year,group,query,hits,total
+1880,会社,Kanematsu,0,662631
+1881,会社,Kanematsu,0,702832
+1882,会社,Kanematsu,0,799229
+1883,会社,Kanematsu,0,836554
+1884,会社,Kanematsu,0,967460
+1885,会社,Kanematsu,0,1030190
+1886,会社,Kanematsu,0,1132665
+1887,会社,Kanematsu,0,1183631
+1888,会社,Kanematsu,2,1321217
+1889,会社,Kanematsu,0,1417932
+1890,会社,Kanematsu,63,1523613
+1891,会社,Kanematsu,23,1581314
+1892,会社,Kanematsu,113,1656722
+1893,会社,Kanematsu,330,1675252
+1894,会社,Kanematsu,159,1756401
+1895,会社,Kanematsu,288,1874586
+1896,会社,Kanematsu,418,2031840
+1897,会社,Kanematsu,407,2142849
+1898,会社,Kanematsu,299,2403637
+1899,会社,Kanematsu,250,2608325
+1900,会社,Kanematsu,277,2770135
+1901,会社,Kanematsu,197,2861999
+1902,会社,Kanematsu,110,2914243
+1903,会社,Kanematsu,150,2965445
+1904,会社,Kanematsu,118,3130421
+1905,会社,Kanematsu,20,3275946
+1906,会社,Kanematsu,35,3311751
+1907,会社,Kanematsu,3,3453054
+1908,会社,Kanematsu,20,3592036
+1909,会社,Kanematsu,86,3644672
+1910,会社,Kanematsu,81,3865706
+1911,会社,Kanematsu,55,3998791
+1912,会社,Kanematsu,78,4150098
+1913,会社,Kanematsu,103,4179241
+1914,会社,Kanematsu,94,4827155
+1915,会社,Kanematsu,138,4946206
+1916,会社,Kanematsu,201,4485113
+1917,会社,Kanematsu,25,4335695
+1918,会社,Kanematsu,8,4112001
+1919,会社,Kanematsu,90,3641058
+1920,会社,Kanematsu,57,3400545
+1921,会社,Kanematsu,356,3593516
+1922,会社,Kanematsu,42,3741071
+1923,会社,Kanematsu,26,4031973
+1924,会社,Kanematsu,9,4363450
+1925,会社,Kanematsu,11,4376625
+1926,会社,Kanematsu,18,4407174
+1927,会社,Kanematsu,35,4449313
+1928,会社,Kanematsu,33,4565654
+1929,会社,Kanematsu,112,4817163
+1930,会社,Kanematsu,72,4650063
+1931,会社,Kanematsu,83,4273916
+1932,会社,Kanematsu,129,4295445
+1933,会社,Kanematsu,192,4483721
+1934,会社,Kanematsu,159,4633528
+1935,会社,Kanematsu,161,4757763
+1936,会社,Kanematsu,232,4846394
+1937,会社,Kanematsu,218,4823550
+1938,会社,Kanematsu,80,4816614
+1939,会社,Kanematsu,44,4585086
+1940,会社,Kanematsu,29,3944898
+1941,会社,Kanematsu,56,3759365
+1942,会社,Kanematsu,53,3070927
+1943,会社,Kanematsu,16,2697173
+1944,会社,Kanematsu,4,2743633
+1945,会社,Kanematsu,19,2896039
+1946,会社,Kanematsu,58,3493313
+1947,会社,Kanematsu,54,3618974
+1948,会社,Kanematsu,40,3269311
+1949,会社,Kanematsu,32,3705488
+1880,会社,F. Kanematsu,0,662631
+1881,会社,F. Kanematsu,0,702832
+1882,会社,F. Kanematsu,0,799229
+1883,会社,F. Kanematsu,0,836554
+1884,会社,F. Kanematsu,0,967460
+1885,会社,F. Kanematsu,0,1030190
+1886,会社,F. Kanematsu,0,1132665
+1887,会社,F. Kanematsu,0,1183631
+1888,会社,F. Kanematsu,0,1321217
+1889,会社,F. Kanematsu,0,1417932
+1890,会社,F. Kanematsu,48,1523613
+1891,会社,F. Kanematsu,19,1581314
+1892,会社,F. Kanematsu,87,1656722
+1893,会社,F. Kanematsu,293,1675252
+1894,会社,F. Kanematsu,144,1756401
+1895,会社,F. Kanematsu,258,1874586
+1896,会社,F. Kanematsu,350,2031840
+1897,会社,F. Kanematsu,387,2142849
+1898,会社,F. Kanematsu,286,2403637
+1899,会社,F. Kanematsu,232,2608325
+1900,会社,F. Kanematsu,228,2770135
+1901,会社,F. Kanematsu,176,2861999
+1902,会社,F. Kanematsu,102,2914243
+1903,会社,F. Kanematsu,138,2965445
+1904,会社,F. Kanematsu,69,3130421
+1905,会社,F. Kanematsu,6,3275946
+1906,会社,F. Kanematsu,12,3311751
+1907,会社,F. Kanematsu,2,3453054
+1908,会社,F. Kanematsu,13,3592036
+1909,会社,F. Kanematsu,74,3644672
+1910,会社,F. Kanematsu,76,3865706
+1911,会社,F. Kanematsu,53,3998791
+1912,会社,F. Kanematsu,68,4150098
+1913,会社,F. Kanematsu,86,4179241
+1914,会社,F. Kanematsu,89,4827155
+1915,会社,F. Kanematsu,124,4946206
+1916,会社,F. Kanematsu,192,4485113
+1917,会社,F. Kanematsu,23,4335695
+1918,会社,F. Kanematsu,8,4112001
+1919,会社,F. Kanematsu,69,3641058
+1920,会社,F. Kanematsu,12,3400545
+1921,会社,F. Kanematsu,4,3593516
+1922,会社,F. Kanematsu,21,3741071
+1923,会社,F. Kanematsu,22,4031973
+1924,会社,F. Kanematsu,5,4363450
+1925,会社,F. Kanematsu,8,4376625
+1926,会社,F. Kanematsu,15,4407174
+1927,会社,F. Kanematsu,19,4449313
+1928,会社,F. Kanematsu,20,4565654
+1929,会社,F. Kanematsu,70,4817163
+1930,会社,F. Kanematsu,54,4650063
+1931,会社,F. Kanematsu,57,4273916
+1932,会社,F. Kanematsu,85,4295445
+1933,会社,F. Kanematsu,150,4483721
+1934,会社,F. Kanematsu,128,4633528
+1935,会社,F. Kanematsu,126,4757763
+1936,会社,F. Kanematsu,120,4846394
+1937,会社,F. Kanematsu,103,4823550
+1938,会社,F. Kanematsu,37,4816614
+1939,会社,F. Kanematsu,16,4585086
+1940,会社,F. Kanematsu,18,3944898
+1941,会社,F. Kanematsu,16,3759365
+1942,会社,F. Kanematsu,19,3070927
+1943,会社,F. Kanematsu,0,2697173
+1944,会社,F. Kanematsu,0,2743633
+1945,会社,F. Kanematsu,0,2896039
+1946,会社,F. Kanematsu,0,3493313
+1947,会社,F. Kanematsu,22,3618974
+1948,会社,F. Kanematsu,4,3269311
+1949,会社,F. Kanematsu,2,3705488
+1880,言説,Yellow Peril,0,662631
+1881,言説,Yellow Peril,0,702832
+1882,言説,Yellow Peril,0,799229
+1883,言説,Yellow Peril,0,836554
+1884,言説,Yellow Peril,0,967460
+1885,言説,Yellow Peril,0,1030190
+1886,言説,Yellow Peril,0,1132665
+1887,言説,Yellow Peril,0,1183631
+1888,言説,Yellow Peril,0,1321217
+1889,言説,Yellow Peril,0,1417932
+1890,言説,Yellow Peril,0,1523613
+1891,言説,Yellow Peril,0,1581314
+1892,言説,Yellow Peril,0,1656722
+1893,言説,Yellow Peril,0,1675252
+1894,言説,Yellow Peril,0,1756401
+1895,言説,Yellow Peril,4,1874586
+1896,言説,Yellow Peril,6,2031840
+1897,言説,Yellow Peril,7,2142849
+1898,言説,Yellow Peril,28,2403637
+1899,言説,Yellow Peril,15,2608325
+1900,言説,Yellow Peril,179,2770135
+1901,言説,Yellow Peril,74,2861999
+1902,言説,Yellow Peril,52,2914243
+1903,言説,Yellow Peril,62,2965445
+1904,言説,Yellow Peril,784,3130421
+1905,言説,Yellow Peril,1524,3275946
+1906,言説,Yellow Peril,362,3311751
+1907,言説,Yellow Peril,785,3453054
+1908,言説,Yellow Peril,850,3592036
+1909,言説,Yellow Peril,450,3644672
+1910,言説,Yellow Peril,537,3865706
+1911,言説,Yellow Peril,473,3998791
+1912,言説,Yellow Peril,493,4150098
+1913,言説,Yellow Peril,394,4179241
+1914,言説,Yellow Peril,680,4827155
+1915,言説,Yellow Peril,471,4946206
+1916,言説,Yellow Peril,187,4485113
+1917,言説,Yellow Peril,112,4335695
+1918,言説,Yellow Peril,105,4112001
+1919,言説,Yellow Peril,239,3641058
+1920,言説,Yellow Peril,290,3400545
+1921,言説,Yellow Peril,348,3593516
+1922,言説,Yellow Peril,168,3741071
+1923,言説,Yellow Peril,192,4031973
+1924,言説,Yellow Peril,157,4363450
+1925,言説,Yellow Peril,264,4376625
+1926,言説,Yellow Peril,208,4407174
+1927,言説,Yellow Peril,203,4449313
+1928,言説,Yellow Peril,127,4565654
+1929,言説,Yellow Peril,123,4817163
+1930,言説,Yellow Peril,98,4650063
+1931,言説,Yellow Peril,82,4273916
+1932,言説,Yellow Peril,101,4295445
+1933,言説,Yellow Peril,115,4483721
+1934,言説,Yellow Peril,262,4633528
+1935,言説,Yellow Peril,210,4757763
+1936,言説,Yellow Peril,247,4846394
+1937,言説,Yellow Peril,225,4823550
+1938,言説,Yellow Peril,126,4816614
+1939,言説,Yellow Peril,64,4585086
+1940,言説,Yellow Peril,111,3944898
+1941,言説,Yellow Peril,146,3759365
+1942,言説,Yellow Peril,289,3070927
+1943,言説,Yellow Peril,102,2697173
+1944,言説,Yellow Peril,73,2743633
+1945,言説,Yellow Peril,48,2896039
+1946,言説,Yellow Peril,49,3493313
+1947,言説,Yellow Peril,38,3618974
+1948,言説,Yellow Peril,30,3269311
+1949,言説,Yellow Peril,38,3705488
+1880,言説,Japanese buyers,0,662631
+1881,言説,Japanese buyers,0,702832
+1882,言説,Japanese buyers,0,799229
+1883,言説,Japanese buyers,1,836554
+1884,言説,Japanese buyers,0,967460
+1885,言説,Japanese buyers,0,1030190
+1886,言説,Japanese buyers,0,1132665
+1887,言説,Japanese buyers,0,1183631
+1888,言説,Japanese buyers,10,1321217
+1889,言説,Japanese buyers,23,1417932
+1890,言説,Japanese buyers,8,1523613
+1891,言説,Japanese buyers,0,1581314
+1892,言説,Japanese buyers,1,1656722
+1893,言説,Japanese buyers,26,1675252
+1894,言説,Japanese buyers,3,1756401
+1895,言説,Japanese buyers,12,1874586
+1896,言説,Japanese buyers,10,2031840
+1897,言説,Japanese buyers,13,2142849
+1898,言説,Japanese buyers,7,2403637
+1899,言説,Japanese buyers,29,2608325
+1900,言説,Japanese buyers,14,2770135
+1901,言説,Japanese buyers,12,2861999
+1902,言説,Japanese buyers,15,2914243
+1903,言説,Japanese buyers,23,2965445
+1904,言説,Japanese buyers,106,3130421
+1905,言説,Japanese buyers,401,3275946
+1906,言説,Japanese buyers,272,3311751
+1907,言説,Japanese buyers,164,3453054
+1908,言説,Japanese buyers,77,3592036
+1909,言説,Japanese buyers,47,3644672
+1910,言説,Japanese buyers,65,3865706
+1911,言説,Japanese buyers,208,3998791
+1912,言説,Japanese buyers,187,4150098
+1913,言説,Japanese buyers,208,4179241
+1914,言説,Japanese buyers,322,4827155
+1915,言説,Japanese buyers,333,4946206
+1916,言説,Japanese buyers,289,4485113
+1917,言説,Japanese buyers,52,4335695
+1918,言説,Japanese buyers,76,4112001
+1919,言説,Japanese buyers,179,3641058
+1920,言説,Japanese buyers,192,3400545
+1921,言説,Japanese buyers,543,3593516
+1922,言説,Japanese buyers,435,3741071
+1923,言説,Japanese buyers,561,4031973
+1924,言説,Japanese buyers,637,4363450
+1925,言説,Japanese buyers,456,4376625
+1926,言説,Japanese buyers,403,4407174
+1927,言説,Japanese buyers,365,4449313
+1928,言説,Japanese buyers,386,4565654
+1929,言説,Japanese buyers,490,4817163
+1930,言説,Japanese buyers,771,4650063
+1931,言説,Japanese buyers,1100,4273916
+1932,言説,Japanese buyers,966,4295445
+1933,言説,Japanese buyers,1051,4483721
+1934,言説,Japanese buyers,1022,4633528
+1935,言説,Japanese buyers,1189,4757763
+1936,言説,Japanese buyers,2528,4846394
+1937,言説,Japanese buyers,2156,4823550
+1938,言説,Japanese buyers,1253,4816614
+1939,言説,Japanese buyers,501,4585086
+1940,言説,Japanese buyers,94,3944898
+1941,言説,Japanese buyers,48,3759365
+1942,言説,Japanese buyers,5,3070927
+1943,言説,Japanese buyers,13,2697173
+1944,言説,Japanese buyers,5,2743633
+1945,言説,Japanese buyers,27,2896039
+1946,言説,Japanese buyers,18,3493313
+1947,言説,Japanese buyers,128,3618974
+1948,言説,Japanese buyers,46,3269311
+1949,言説,Japanese buyers,77,3705488
+1880,言説,Japanese competition,1,662631
+1881,言説,Japanese competition,0,702832
+1882,言説,Japanese competition,0,799229
+1883,言説,Japanese competition,0,836554
+1884,言説,Japanese competition,0,967460
+1885,言説,Japanese competition,0,1030190
+1886,言説,Japanese competition,0,1132665
+1887,言説,Japanese competition,0,1183631
+1888,言説,Japanese competition,0,1321217
+1889,言説,Japanese competition,2,1417932
+1890,言説,Japanese competition,0,1523613
+1891,言説,Japanese competition,7,1581314
+1892,言説,Japanese competition,2,1656722
+1893,言説,Japanese competition,3,1675252
+1894,言説,Japanese competition,6,1756401
+1895,言説,Japanese competition,60,1874586
+1896,言説,Japanese competition,113,2031840
+1897,言説,Japanese competition,72,2142849
+1898,言説,Japanese competition,24,2403637
+1899,言説,Japanese competition,39,2608325
+1900,言説,Japanese competition,16,2770135
+1901,言説,Japanese competition,19,2861999
+1902,言説,Japanese competition,12,2914243
+1903,言説,Japanese competition,4,2965445
+1904,言説,Japanese competition,59,3130421
+1905,言説,Japanese competition,100,3275946
+1906,言説,Japanese competition,83,3311751
+1907,言説,Japanese competition,52,3453054
+1908,言説,Japanese competition,106,3592036
+1909,言説,Japanese competition,82,3644672
+1910,言説,Japanese competition,24,3865706
+1911,言説,Japanese competition,69,3998791
+1912,言説,Japanese competition,50,4150098
+1913,言説,Japanese competition,90,4179241
+1914,言説,Japanese competition,99,4827155
+1915,言説,Japanese competition,83,4946206
+1916,言説,Japanese competition,218,4485113
+1917,言説,Japanese competition,13,4335695
+1918,言説,Japanese competition,36,4112001
+1919,言説,Japanese competition,183,3641058
+1920,言説,Japanese competition,98,3400545
+1921,言説,Japanese competition,365,3593516
+1922,言説,Japanese competition,180,3741071
+1923,言説,Japanese competition,364,4031973
+1924,言説,Japanese competition,346,4363450
+1925,言説,Japanese competition,213,4376625
+1926,言説,Japanese competition,288,4407174
+1927,言説,Japanese competition,233,4449313
+1928,言説,Japanese competition,133,4565654
+1929,言説,Japanese competition,240,4817163
+1930,言説,Japanese competition,343,4650063
+1931,言説,Japanese competition,451,4273916
+1932,言説,Japanese competition,594,4295445
+1933,言説,Japanese competition,2472,4483721
+1934,言説,Japanese competition,1995,4633528
+1935,言説,Japanese competition,846,4757763
+1936,言説,Japanese competition,1983,4846394
+1937,言説,Japanese competition,1698,4823550
+1938,言説,Japanese competition,991,4816614
+1939,言説,Japanese competition,389,4585086
+1940,言説,Japanese competition,29,3944898
+1941,言説,Japanese competition,7,3759365
+1942,言説,Japanese competition,5,3070927
+1943,言説,Japanese competition,3,2697173
+1944,言説,Japanese competition,8,2743633
+1945,言説,Japanese competition,16,2896039
+1946,言説,Japanese competition,23,3493313
+1947,言説,Japanese competition,85,3618974
+1948,言説,Japanese competition,154,3269311
+1949,言説,Japanese competition,252,3705488
+1880,言説,Anglo-Japanese Alliance,0,662631
+1881,言説,Anglo-Japanese Alliance,0,702832
+1882,言説,Anglo-Japanese Alliance,0,799229
+1883,言説,Anglo-Japanese Alliance,0,836554
+1884,言説,Anglo-Japanese Alliance,0,967460
+1885,言説,Anglo-Japanese Alliance,0,1030190
+1886,言説,Anglo-Japanese Alliance,0,1132665
+1887,言説,Anglo-Japanese Alliance,0,1183631
+1888,言説,Anglo-Japanese Alliance,0,1321217
+1889,言説,Anglo-Japanese Alliance,0,1417932
+1890,言説,Anglo-Japanese Alliance,0,1523613
+1891,言説,Anglo-Japanese Alliance,1,1581314
+1892,言説,Anglo-Japanese Alliance,0,1656722
+1893,言説,Anglo-Japanese Alliance,0,1675252
+1894,言説,Anglo-Japanese Alliance,0,1756401
+1895,言説,Anglo-Japanese Alliance,68,1874586
+1896,言説,Anglo-Japanese Alliance,3,2031840
+1897,言説,Anglo-Japanese Alliance,7,2142849
+1898,言説,Anglo-Japanese Alliance,60,2403637
+1899,言説,Anglo-Japanese Alliance,10,2608325
+1900,言説,Anglo-Japanese Alliance,4,2770135
+1901,言説,Anglo-Japanese Alliance,2,2861999
+1902,言説,Anglo-Japanese Alliance,841,2914243
+1903,言説,Anglo-Japanese Alliance,218,2965445
+1904,言説,Anglo-Japanese Alliance,411,3130421
+1905,言説,Anglo-Japanese Alliance,1784,3275946
+1906,言説,Anglo-Japanese Alliance,384,3311751
+1907,言説,Anglo-Japanese Alliance,291,3453054
+1908,言説,Anglo-Japanese Alliance,577,3592036
+1909,言説,Anglo-Japanese Alliance,172,3644672
+1910,言説,Anglo-Japanese Alliance,231,3865706
+1911,言説,Anglo-Japanese Alliance,698,3998791
+1912,言説,Anglo-Japanese Alliance,317,4150098
+1913,言説,Anglo-Japanese Alliance,255,4179241
+1914,言説,Anglo-Japanese Alliance,715,4827155
+1915,言説,Anglo-Japanese Alliance,249,4946206
+1916,言説,Anglo-Japanese Alliance,286,4485113
+1917,言説,Anglo-Japanese Alliance,217,4335695
+1918,言説,Anglo-Japanese Alliance,295,4112001
+1919,言説,Anglo-Japanese Alliance,365,3641058
+1920,言説,Anglo-Japanese Alliance,1389,3400545
+1921,言説,Anglo-Japanese Alliance,3974,3593516
+1922,言説,Anglo-Japanese Alliance,433,3741071
+1923,言説,Anglo-Japanese Alliance,155,4031973
+1924,言説,Anglo-Japanese Alliance,125,4363450
+1925,言説,Anglo-Japanese Alliance,143,4376625
+1926,言説,Anglo-Japanese Alliance,61,4407174
+1927,言説,Anglo-Japanese Alliance,225,4449313
+1928,言説,Anglo-Japanese Alliance,97,4565654
+1929,言説,Anglo-Japanese Alliance,30,4817163
+1930,言説,Anglo-Japanese Alliance,31,4650063
+1931,言説,Anglo-Japanese Alliance,4,4273916
+1932,言説,Anglo-Japanese Alliance,51,4295445
+1933,言説,Anglo-Japanese Alliance,101,4483721
+1934,言説,Anglo-Japanese Alliance,285,4633528
+1935,言説,Anglo-Japanese Alliance,121,4757763
+1936,言説,Anglo-Japanese Alliance,108,4846394
+1937,言説,Anglo-Japanese Alliance,148,4823550
+1938,言説,Anglo-Japanese Alliance,56,4816614
+1939,言説,Anglo-Japanese Alliance,101,4585086
+1940,言説,Anglo-Japanese Alliance,78,3944898
+1941,言説,Anglo-Japanese Alliance,68,3759365
+1942,言説,Anglo-Japanese Alliance,87,3070927
+1943,言説,Anglo-Japanese Alliance,10,2697173
+1944,言説,Anglo-Japanese Alliance,11,2743633
+1945,言説,Anglo-Japanese Alliance,17,2896039
+1946,言説,Anglo-Japanese Alliance,11,3493313
+1947,言説,Anglo-Japanese Alliance,12,3618974
+1948,言説,Anglo-Japanese Alliance,1,3269311
+1949,言説,Anglo-Japanese Alliance,3,3705488
