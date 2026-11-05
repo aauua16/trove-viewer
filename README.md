@@ -94,13 +94,15 @@ year,group,query,hits,total
 | グループ | 検索語（フレーズ検索） | 狙い |
 |---|---|---|
 | 会社 | `"kanematsu"`, `"F. Kanematsu"` | 兼松の可視性 |
-| 言説 | `"Yellow Peril"`, `"Japanese buyers"`, `"Japanese competition"`, `"Anglo-Japanese Alliance"` | 日本に関する言説（脅威・排斥、在豪日本人、通商、外交） |
+| 言説 | `"Yellow Peril"`, `"Japanese buyers"`, `"Japanese competition"`, `"Anglo-Japanese Alliance"` | 日本に関する言説（脅威・排斥、在豪日本人、通商、外交）の歴史的推移の観察 |
 
 - 言説の4語は、Claudeの一般的な歴史知識からの提案。当時の記事で実際に使われた語は、近読で確かめて足していく。参考：David Walker, *Anxious Nation: Australia and the Rise of Asia, 1850–1939* (St Lucia: University of Queensland Press, 1999)。
 - フレーズ検索なので、語順が違う・間に別の語が入る表現は拾えない。
 - 分母は全グループ共通で「同じ絞り込み条件の全記事」。
 - 言説は「Japan OR Japanese を含む記事」を分母にした割合も有用だが、未実装。
 - 表示名はグループをまたいで重複させない（重複するとスクリプトが止まる）。
+- Trove APIでは、本文を取得できないので（利用規約より）、タイトルや見出しに入っている検索語のみがヒット数として現れる。
+- JapanやJapanese などは、ヒット数が多すぎて、これらの検索語が埋もれてしまうので、外した。
 
 ## スパイクと近読
 グラフ上で突出した年（スパイク）を自動で見つけ、大きな三角の点で示す。見つけ方（`app.js` 冒頭の `LOW_COUNT` / `SPIKE_RATIO` / `SPIKE_WINDOW` / `SPIKE_TOP`）：
