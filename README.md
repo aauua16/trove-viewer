@@ -5,12 +5,12 @@
 ## 使っているライブラリ
 | 名前 | 用途 | ライセンス | 読み込み元 |
 |---|---|---|---|
-| Chart.js 4.4.1 | グラフ描画 | MIT（要最終確認） | cdn.jsdelivr.net |
+| Chart.js 4.4.1 | グラフ描画 | MIT | cdn.jsdelivr.net |
 
 ## データの出典
 | ファイル | 内容 | 出典・URL | ライセンス | 状態 |
 |---|---|---|---|---|
-| data/hits.csv | 年・検索語・ヒット件数・総記事数 | Trove API v3（オーストラリア国立図書館）。`fetch_trove.py` で取得（取得日・検索式は `data/hits_meta.json` に自動記録） | Trove の利用規約は要確認（未確認） | 2026-10-29 取得。`fetch_trove.py` の検索語を減らしたため、検索語を変えたあとは、再実行するまで CSV と画面は前の検索語のまま |
+| data/hits.csv | 年・検索語・ヒット件数・総記事数 | Trove API v3（オーストラリア国立図書館）。`fetch_trove.py` で取得| Trove の利用規約 | 2026-10-29 取得。|
 
 ### 本物のデータに差し替えるときの記録事項
 - 取得元（例：Trove）、取得日、検索式（検索語・絞り込み条件）
@@ -38,7 +38,7 @@ year,group,query,hits,total
 実行の最初に、新聞/官報のフィルタが効いているか（フィルタなし ≒ 新聞 + 官報）を自動検査し、効いていなければ止まる。
 
 ## 検索語（Kanematsu と F. Kanematsu）
-`fetch_trove.py` の `QUERIES` には、現在 `"kanematsu"`（表示名 Kanematsu）と `"F. Kanematsu"` を置いている。三井（Mitsui）、z綴り（kanematzu）、OR の合算は外した。
+`fetch_trove.py` の `QUERIES` には、現在 `"kanematsu"`（表示名 Kanematsu）と `"F. Kanematsu"` を置いている。z綴り（kanematzu）、OR の合算は外した。
 - **推測**：Trove は記号を無視して語を照合すると思われ、その場合 "F. Kanematsu" の記事は "kanematsu" にも含まれる（F. Kanematsu ≦ Kanematsu）。2026-10-29 取得分では、全70年で F. Kanematsu ≦ Kanematsu だった（合計 4,865 件 / 6,671 件）。
 - 2本の差（Kanematsu − F. Kanematsu）が何を拾っているか（社名 Kanematsu & Co.、別の人物、OCR の誤読など）は、近読で記事を読んで確かめるまで分からない。
 - ほかの綴り（OCR の誤読形を含む）は、近読で見つけたものを `QUERIES` に足していく。複数の綴りを 1 つにまとめるときは、件数の足し算ではなく OR の検索式を使う（同じ記事に両方があっても 1 件と数えるため）。
@@ -50,13 +50,14 @@ year,group,query,hits,total
 | グループ | 検索語（フレーズ検索） | 狙い |
 |---|---|---|
 | 会社 | `"kanematsu"`, `"F. Kanematsu"` | 兼松の可視性 |
-| 言説 | `"Yellow Peril"`, `"Japanese buyers"`, `"Japanese competition"`, `"Anglo-Japanese Alliance"` | 日本に関する言説（脅威・排斥、在豪日本人、通商、外交） |
+| 言説 | `"Yellow Peril"`, `"Japanese buyers"`, `"Japanese competition"`, `"Anglo-Japanese Alliance"` | 日本に関する言説（脅威・排斥、在豪日本人、通商、外交）の歴史的推移の観察 |
 
-- 言説の4語は**暫定**で、私（Claude）の一般的な歴史知識からの提案。当時の記事で実際に使われた語は、近読で確かめて足していく。参考：David Walker, *Anxious Nation: Australia and the Rise of Asia, 1850–1939* (St Lucia: University of Queensland Press, 1999)。
+- 言説の4語は、Claudeの一般的な歴史知識からの提案。当時の記事で実際に使われた語は、近読で確かめて足していく。
 - フレーズ検索なので、語順が違う・間に別の語が入る表現は拾えない。
-- 「Mikado」はオペレッタ『The Mikado』の広告・劇評を大量に拾うと推測し、入れていない（件数での検証はしていない）。
-- 分母は全グループ共通で「同じ絞り込み条件の全記事」。言説は「Japan OR Japanese を含む記事」を分母にした割合も有用だが、未実装。
+- 分母は全グループ共通で「同じ絞り込み条件の全記事」。
 - 表示名はグループをまたいで重複させない（重複するとスクリプトが止まる）。
+- Trove APIでは、本文を取得できないので（利用規約より）、タイトルや見出しに入っている検索語のみがヒット数として現れる。
+- JapanやJapanese などは、ヒット数が多すぎて、これらの検索語が埋もれてしまうので、外した。
 
 ## スパイクと近読
 グラフ上で突出した年（スパイク）を自動で見つけ、大きな三角の点で示す。見つけ方（`app.js` 冒頭の `LOW_COUNT` / `SPIKE_RATIO` / `SPIKE_WINDOW` / `SPIKE_TOP`）：
@@ -73,12 +74,5 @@ year,group,query,hits,total
 
 URL の形：`https://trove.nla.gov.au/search/category/newspapers?keyword=<検索式>&l-artType=newspapers&l-decade=<年代>&l-year=<年>`
 - `l-artType=newspapers`（新聞のみ）と、年を `l-decade` + `l-year` の併用で絞る書き方は、GLAM Workbench の資料（trove-query-parser、Trove Data Guide）に基づく。
-- **Trove の画面で実際に開いて、年が絞れること・件数が API の集計と概ね合うことは未確認。** 開けない／絞れないときは Trove で手動検索し、動いた形をここに記録する。
 - ブラウザのポップアップブロックが新しいタブを止めたときは、一覧の「Trove で開く」を使う。
-
-## 未確認事項（要確認）
-- `fetch_trove.py` は 2026-10-29 に実行され、取得が完了している（`data/hits_meta.json` に取得日時を記録）。新聞/官報フィルタの自動検査は、通らなければファイルが作られない作りなので通過したはずだが、検査の表示そのものはここに記録していない。
-- Trove API のパラメータ名・値（`l-artType` の値など）は資料によって表記が揺れている。検査で止まった場合は公式の技術ガイドで現行の書き方を確認する。
-- 取得データの再配布・GitHub Pages での公開が許されるかは、Trove の利用規約を確認して、確認日とともにここに記録する（未確認）。
-- 検索語の綴り（Kanematsu / Kanematzu など）の候補、OCR 誤りの影響、ピーク年の記事の目視確認（偽陽性の排除）は未実施。ヒット数の増減を歴史的変化として書く前に必ず行う。
-- 件数は「現在デジタル化され検索可能な記事の中での一致数」であり、当時の報道量そのものではない。
+- 件数は当時の報道量そのものではない。
